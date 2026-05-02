@@ -1,0 +1,5 @@
+Version: 1.0.0 
+System: Lati System 
+Enterprise: Minions Enterprises Solutions 
+Release Date: Sat 05/02/2026 
+Build Time: 13:32:27.81 

@@ -1,0 +1,66 @@
+/* Main CSS for MEQTEADOMAINS */ 
+/* Minions Enterprises Solutions Lati System */ 
+body { 
+    font-family: 'Segoe UI', Arial, sans-serif; 
+    margin: 0; 
+    padding: 20px; 
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); 
+    color: white; 
+} 
+.container { 
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding: 20px; 
+} 
+.card { 
+    background: rgba(255,255,255,0.1); 
+    border-radius: 10px; 
+    padding: 20px; 
+    margin: 10px 0; 
+} 
+input, button { 
+    padding: 10px; 
+    margin: 5px; 
+    border: none; 
+    border-radius: 5px; 
+} 
+button { 
+    background: #4CAF50; 
+    color: white; 
+    cursor: pointer; 
+} 
+button:hover { 
+    background: #45a049; 
+} 
+#result, #marginResult { 
+    margin-top: 10px; 
+    font-weight: bold; 
+} 
+.table-container { 
+    overflow-x: auto; 
+    margin-top: 15px; 
+} 
+table { 
+    width: 100%; 
+    border-collapse: collapse; 
+    margin-top: 10px; 
+    color: white; 
+} 
+thead th { 
+    text-align: left; 
+    padding: 10px; 
+    background: rgba(255,255,255,0.15); 
+} 
+tbody td { 
+    padding: 10px; 
+    border-top: 1px solid rgba(255,255,255,0.1); 
+} 
+.status-available { 
+    color: #b6ffb3; 
+} 
+.status-unavailable { 
+    color: #ffb3b3; 
+} 
+.status-unknown { 
+    color: #ffd966; 
+} 

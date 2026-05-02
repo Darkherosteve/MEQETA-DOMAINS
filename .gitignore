@@ -1,0 +1,9 @@
+# Data folder exclusions 
+data/ 
+data/setting.json 
+*.log 
+.env 
+node_modules/ 
+temp/ 
+.DS_Store 
+Thumbs.db 

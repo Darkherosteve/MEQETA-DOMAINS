@@ -1,0 +1,44 @@
+<DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta name="description" content="MEQTEADOMAINS - A project created with Minions Enterprises Solutions Lati System"> 
+    <meta name="keywords" content="MEQTEADOMAINS, Lati System, Minions Enterprises, web development"> 
+    <meta name="author" content="Minions Enterprises Solutions"> 
+    <meta name="robots" content="index, follow"> 
+    <meta property="og:title" content="MEQTEADOMAINS - Lati System"> 
+    <meta property="og:description" content="MEQTEADOMAINS project powered by Lati System"> 
+    <meta property="og:type" content="website"> 
+    <meta name="twitter:card" content="summary"> 
+    <meta name="twitter:title" content="MEQTEADOMAINS - Lati System"> 
+    <meta name="twitter:description" content="MEQTEADOMAINS project powered by Lati System"> 
+    <title>MEQTEADOMAINS - Lati System by Minions Enterprises</title> 
+    <link rel="stylesheet" href="styles/main.css"> 
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,^<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'^>^<text y='.9em' font-size='90'^>🚀^</text^>^</svg^>"> 
+
+</head> 
+<body> 
+    <div class="container"> 
+        <h1>MEQTEADOMAINS Dashboard</h1> 
+        <div class="card"> 
+            <h2>Domain Availability Check</h2> 
+            <p>Enter a domain name or base label and this portal will check common TLDs like <strong>.com</strong>, <strong>.net</strong>, <strong>.org</strong>, <strong>.co</strong> and more.</p> 
+            <form id="domainForm"> 
+                <input type="text" id="domainInput" placeholder="Enter base name or domain (e.g., meqeta or meqeta.com)" required> 
+                <button type="submit">Check Availability</button> 
+            </form> 
+            <div id="result"></div> 
+            <div id="availabilityTable"></div> 
+        </div> 
+        <div class="card"> 
+            <h2>Set Default Margins</h2> 
+            <form id="marginForm"> 
+                <input type="number" id="marginInput" placeholder="Margin percentage (e.g., 20)" required> 
+                <button type="submit">Save Margin</button> 
+            </form> 
+            <div id="marginResult"></div> 
+        </div> 
+    </div> 
+    <script src="scripts/main.js"></script> 
+</body> 

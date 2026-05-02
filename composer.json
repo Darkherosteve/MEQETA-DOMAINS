@@ -1,0 +1,5 @@
+{
+    "require": {
+        "hostinger/api-php-sdk": "^0.0.44"
+    }
+}

@@ -1,0 +1,9 @@
+Project: MEQTEADOMAINS 
+Created by Minions Enterprises Solutions Lati System 
+Created on: Sat 05/02/2026 at 13:32:27.75 
+ 
+Project Structure: 
+- api/ - Backend API files 
+- scripts/ - JavaScript files 
+- styles/ - CSS files 
+- data/ - JSON data files and media 
