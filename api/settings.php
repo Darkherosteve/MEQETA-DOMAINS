@@ -1,13 +1,16 @@
 <?php
 header("Content-Type: application/json");
 
-/* Get route */
 $route = $_GET['route'] ?? '';
 
 switch ($route) {
 
     case 'settings':
         require_once __DIR__ . '/settings.php';
+        break;
+
+    case 'availability':
+        require_once __DIR__ . '/availability.php';
         break;
 
     default:
